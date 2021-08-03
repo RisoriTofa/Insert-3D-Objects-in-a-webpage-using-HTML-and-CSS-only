@@ -185,10 +185,30 @@
 /* This styles the 3D object inserted in the aside container */
 
 #aSide model-viewer {
-    height: 600px;
-    width: 600px;
+    height: 300px;
+    width: 300px;
     position: absolute;
     top: 0;
     left: 0;
+    border: none;
+}
+
+#aSide2 {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: calc(50% - 250px);
+    right: 7%;
+}
+
+
+/* This styles the 3D object inserted in the aside container */
+
+#aSide2 model-viewer {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 200;
+    left: 200;
     border: none;
 }
